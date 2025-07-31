@@ -4,8 +4,8 @@ import { FaPlus, FaTrash, FaPhoneAlt, FaSpinner, FaCheckCircle, FaTimesCircle } 
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-const WEBSITE_DATA_API_BASE_URL = 'https://gadget-baba-backend.vercel.app'; // আপনার Node.js সার্ভারের URL
-const ORDERS_API_BASE_URL = 'https://gadget-baba-backend.vercel.app'; // অর্ডারের জন্য নতুন URL
+const WEBSITE_DATA_API_BASE_URL = 'https://backend.gadgetbaba.online'; // আপনার Node.js সার্ভারের URL
+const ORDERS_API_BASE_URL = 'https://backend.gadgetbaba.online'; // অর্ডারের জন্য নতুন URL
 
 const Home = () => {
     const [websiteData, setWebsiteData] = useState(null);
@@ -423,7 +423,7 @@ const Home = () => {
                     </ul>
                 </nav>
                 <div className="mt-auto text-center text-xs text-gray-400 pt-4 border-t border-gray-700">
-                    Ramisha Telecom &copy; 2025
+                    Gadget BaBa &copy; 2025
                 </div>
             </aside>
 
